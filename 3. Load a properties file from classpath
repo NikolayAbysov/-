@@ -42,3 +42,8 @@ public class App {
 
     }
 }
+
+
+For non-static method, use this :
+
+prop.load(getClass().getClassLoader().getResourceAsStream("config.properties"));
